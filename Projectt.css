@@ -1,0 +1,62 @@
+﻿/* Базови стилове за страницата */
+body {
+    font-family: Arial, sans-serif;
+    margin: 1%;
+    padding: 5%;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+/* Центриране на навигационния блок */
+#nav {
+    text-align: center;
+    width: 100%;
+}
+
+/* Центриране на изображенията */
+.center-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%; /* Това осигурява, че изображенията ще се адаптират */
+}
+
+/* Стилове за Content */
+#Content {
+    padding: 20px;
+    text-align: left;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 1000px;
+    margin: 20px auto;
+}
+
+/* Стилове за заглавията */
+h1, h3 {
+    color: #333;
+    line-height: 1.5;
+}
+
+h1 {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+/* Стил за футера */
+#Footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
